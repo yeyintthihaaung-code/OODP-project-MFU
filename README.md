@@ -18,7 +18,7 @@ A Java console application designed to help users catalog, organize, and manage 
 
 | Class / Interface | Type | Role & Responsibilities |
 | :--- | :--- | :--- |
-| Displayable | Interface | Defines the standard contract (display()) for isual console presentation. |
+| Displayable | Interface | Defines the standard contract (display()) for visual console presentation. |
 | ClothingItem | Class | Implements Displayable. Models individual clothing items with wear tracking, metadata, and file serialization logic. |
 | Outfit | Class | Implements Displayable. Aggregates multiple unique ClothingItem objects into a styled set (max 1 per category). |
 | Wardrobe | Class | Manages the collection of ClothingItem objects. Handles searching, filtering, laundry logic, file I/O, and random outfit generation. |
